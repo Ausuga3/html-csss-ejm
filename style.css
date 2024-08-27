@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.contenedor{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    padding: 0.5%;
+    
+
+    
+}
+.header>img{
+    position: relative;
+    width: 2.5%;
+    
+}
+
+.botonesHeader{
+    position: absolute;
+    width: 100%;
+    left: 85%;
+    top: 2%;
+    gap: 15px;
+    display: flex;
+
+}
+
+.btn1{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-family:"Inter";
+    font-style: normal;
+    font-size: 150%;
+    
+}
+
+.btn2{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-family:"Inter";
+    font-style: normal;
+    font-size: 150%;
+}
+.btn3{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-family:"Inter";
+    font-style: normal;
+    font-size: 150%;
+}
+
+.body{
+    background-color: rgb(240, 240, 240);
+}
+
+.bienvenida{
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    width:95%;
+    left: 1%;
+    flex-direction: column;
+    top: 10%;
+    color: white;
+    background-color: rgb(73, 73, 73);
+    padding: 1%;
+}
+
+
+.caracteristicas{
+    position: absolute;
+    width: 90%;
+    top: 20%;
+    left: 0.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5%;
+    padding: 2%;
+}
+
+.caract1{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 1%;
+    border: 2px solid gray;
+    white-space: nowrap;
+}
+.caract1>h1{
+    font-family: "Inter";
+    font-size: 30px;
+    color: rgb(88, 82, 82);
+}
+.caract1>p{
+    color: rgb(93, 93, 94);
+}
+
+.caract2{
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    border: 2px solid gray;
+    white-space: nowrap;
+}
+.caract2>h1{
+    font-family: "Inter";
+    font-size: 30px;
+    color: rgb(88, 82, 82);
+}
+.caract2>p{
+    color: rgb(93, 93, 94);
+}
+
+.caract3{
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    border: 2px solid gray;
+    white-space: nowrap;
+}
+.caract3>h1{
+    font-family: "Inter";
+    font-size: 30px;
+    color: rgb(88, 82, 82);
+}
+.caract3>p{
+    color: rgb(93, 93, 94);
+}
